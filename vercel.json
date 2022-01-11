@@ -1,0 +1,10 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/", "destination": "/docusaurus-canonical" }
+  ],
+  "rewrites": [
+    { "source": "/docusaurus-canonical/:match*", "destination": "/:match*" }
+  ]
+}
